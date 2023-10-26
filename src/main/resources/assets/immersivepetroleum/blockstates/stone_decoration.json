@@ -1,0 +1,30 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_all"
+  },
+  "variants": {
+    "inventory": [
+      {
+        "textures": {
+          "all": "immersivepetroleum:blocks/stone_decoration_asphalt"
+        }
+      }
+    ],
+    "inventory,type=asphalt": [
+      {
+        "textures": {
+          "all": "immersivepetroleum:blocks/stone_decoration_asphalt"
+        }
+      }
+    ],
+    "type": {
+      "asphalt": {
+        "textures": {
+          "all": "immersivepetroleum:blocks/stone_decoration_asphalt"
+        }
+      }
+    }
+  }
+}
